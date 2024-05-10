@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Latest IT Articles and Insights - PlusDev.NET Posts</title>
+        <link rel="stylesheet" href="../nav_styles.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <nav>
+                <a href="#" id="logo">
+                    <img
+                        src="https://www.plusdev.net/_next/image?url=%2Fassets%2Fimages%2Fpulsdev.png&w=48&q=100"
+                        alt="LOGO"
+                        width="35"
+                        height="37"
+                    />
+                    <h3>PlusDev<span>.NET</span></h3>
+                </a>
+                <div id="search">
+                    <div>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-search h-6 w-6 cursor-pointer text-slate-400"
+                        >
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </svg>
+                        <input type="text" placeholder="Search globally" />
+                    </div>
+                </div>
+                <div id="nav-buttons">
+                    <button>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-plus-square h-6 w-6 text-red-500"
+                        >
+                            <rect
+                                width="18"
+                                height="18"
+                                x="3"
+                                y="3"
+                                rx="2"
+                            ></rect>
+                            <path d="M8 12h8"></path>
+                            <path d="M12 8v8"></path>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-sun h-6 w-6 text-red-500"
+                        >
+                            <circle cx="12" cy="12" r="4"></circle>
+                            <path d="M12 2v2"></path>
+                            <path d="M12 20v2"></path>
+                            <path d="m4.93 4.93 1.41 1.41"></path>
+                            <path d="m17.66 17.66 1.41 1.41"></path>
+                            <path d="M2 12h2"></path>
+                            <path d="M20 12h2"></path>
+                            <path d="m6.34 17.66-1.41 1.41"></path>
+                            <path d="m19.07 4.93-1.41 1.41"></path>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-user h-6 w-6 text-red-500"
+                        >
+                            <path
+                                d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                            ></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </button>
+                    <button id="menu-button">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-menu h-7 w-7 text-red-600 hover:cursor-pointer sm:hidden dark:text-red-500"
+                            type="button"
+                            aria-haspopup="dialog"
+                            aria-expanded="false"
+                            aria-controls="radix-:r19:"
+                            data-state="closed"
+                        >
+                            <line x1="4" x2="20" y1="12" y2="12"></line>
+                            <line x1="4" x2="20" y1="6" y2="6"></line>
+                            <line x1="4" x2="20" y1="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+            <div id="sections">
+                <section id="left-side" class="custom-scroll">
+                    <div id="left-links">
+                        <a href="#" class="left-links">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-home h-5 w-5"
+                            >
+                                <path
+                                    d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                                ></path>
+                                <polyline
+                                    points="9 22 9 12 15 12 15 22"
+                                ></polyline>
+                            </svg>
+                            <span>Home</span>
+                        </a>
+                        <a href="#" class="left-links selected-link">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-newspaper h-5 w-5"
+                            >
+                                <path
+                                    d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"
+                                ></path>
+                                <path d="M18 14h-8"></path>
+                                <path d="M15 18h-5"></path>
+                                <path d="M10 6h8v4h-8V6Z"></path>
+                            </svg>
+                            <span>Posts</span>
+                        </a>
+                        <a href="#" class="left-links">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-file-question h-5 w-5"
+                            >
+                                <path
+                                    d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"
+                                ></path>
+                                <path
+                                    d="M10 10.3c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2"
+                                ></path>
+                                <path d="M12 17h.01"></path>
+                            </svg>
+                            <span>Questions</span>
+                        </a>
+                        <a href="#" class="left-links">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-users-round h-5 w-5"
+                            >
+                                <path d="M18 21a8 8 0 0 0-16 0"></path>
+                                <circle cx="10" cy="8" r="5"></circle>
+                                <path
+                                    d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"
+                                ></path>
+                            </svg>
+                            <span>Community</span>
+                        </a>
+                        <a href="#" class="left-links">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-tags h-5 w-5"
+                            >
+                                <path
+                                    d="M9 5H2v7l6.29 6.29c.94.94 2.48.94 3.42 0l3.58-3.58c.94-.94.94-2.48 0-3.42L9 5Z"
+                                ></path>
+                                <path d="M6 9.01V9"></path>
+                                <path
+                                    d="m15 5 6.3 6.3a2.4 2.4 0 0 1 0 3.4L17 19"
+                                ></path>
+                            </svg>
+                            <span>Tags</span>
+                        </a>
+                    </div>
+                    <div id="login-buttons">
+                        <a href="#">
+                            <button class="login-button">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-circle-user h-5 w-5 lg:hidden"
+                                >
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                    <path
+                                        d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"
+                                    ></path>
+                                </svg>
+                                <span>Log In</span>
+                            </button>
+                        </a>
+                        <a href="#">
+                            <button class="login-button blue-button">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-user-round-x h-5 w-5 lg:hidden"
+                                >
+                                    <path d="M2 21a8 8 0 0 1 11.873-7"></path>
+                                    <circle cx="10" cy="8" r="5"></circle>
+                                    <path d="m17 17 5 5"></path>
+                                    <path d="m22 17-5 5"></path>
+                                </svg>
+                                <span>Sign Up</span>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="divider-horizontal"></div>
+                    <div id="about-us">
+                        <a href="#"> About Us </a>
+                        <a href="#"> Advertise </a>
+                    </div>
+                    <p id="rights">
+                        © 2024
+                        <a href="#"> PlusDev.NET</a>. All rights reserved.
+                    </p>
+                </section>
+                <section id="middle" class="custom-scroll">
+                    <div>
+                        <div id="header">
+                            <h1>All Posts</h1>
+                            <a href="#">
+                                <button>Create a Post</button>
+                            </a>
+                        </div>
+                        <div id="search-container">
+                            <div class="search-post">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-search h-6 w-6 cursor-pointer text-slate-400"
+                                >
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.3-4.3"></path>
+                                </svg>
+                                <input
+                                    type="text"
+                                    placeholder="Search for posts"
+                                />
+                            </div>
+                            <button class="filter-button">
+                                <div><span>Select a Filter</span></div>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-down h-4 w-4 opacity-50"
+                                    aria-hidden="true"
+                                >
+                                    <path d="m6 9 6 6 6-6"></path>
+                                </svg>
+                            </button>
+                        </div>
+                        <div id="filter">
+                            <button class="filter-buttons selected-filter">
+                                All
+                            </button>
+                            <button class="filter-buttons">Recommended</button>
+                            <button class="filter-buttons">Popular</button>
+                            <button class="filter-buttons">Most Recent</button>
+                            <button class="filter-buttons">Oldest</button>
+                        </div>
+                        <div id="posts">
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fbd1c1480201129be867adf88effb1458_nodejs-smart-contracts.jpg&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Mastering Smart Contract Development
+                                            with Node.js: Tools, Security, and
+                                            Best Practices
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>NODE.JS</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>WEB3</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>BLOCKCHAIN</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            1 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            0 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            118 Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2F6a20d2f5a72d1c9f703e4d38b793aba7_go-concurrency.webp&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Mastering Concurrency in Go: A
+                                            Comprehensive Guide to Goroutines
+                                            and Channels
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>GO (GOLANG)</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>GO</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>GOROUTINES</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            2 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            0 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            1.7K Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fce245d2a058c1b9c2634cec233a780d8_golang-vs-nodejs.webp&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Node.js vs. Golang: An In-Depth
+                                            Comparison of the Latest Versions in
+                                            2024
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>GO (GOLANG)</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>NODE.JS</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>GO</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            1 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            2 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            1.0K Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fffc1b32b655dec12db1e8061461117e4_node-async.webp&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Asynchronous Programming in Node.js:
+                                            Callbacks, Promises, and Async/Await
+                                            Explained
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>NODE.JS</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            0 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            0 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            61 Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fbd1c1480201129be867adf88effb1458_nodejs-smart-contracts.jpg&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Mastering Smart Contract Development
+                                            with Node.js: Tools, Security, and
+                                            Best Practices
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>NODE.JS</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>WEB3</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>BLOCKCHAIN</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            1 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            0 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            118 Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2F6a20d2f5a72d1c9f703e4d38b793aba7_go-concurrency.webp&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Mastering Concurrency in Go: A
+                                            Comprehensive Guide to Goroutines
+                                            and Channels
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>GO (GOLANG)</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>GO</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>GOROUTINES</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            2 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            0 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            1.7K Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fce245d2a058c1b9c2634cec233a780d8_golang-vs-nodejs.webp&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Node.js vs. Golang: An In-Depth
+                                            Comparison of the Latest Versions in
+                                            2024
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>GO (GOLANG)</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>NODE.JS</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>GO</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            1 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            2 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            1.0K Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fffc1b32b655dec12db1e8061461117e4_node-async.webp&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Asynchronous Programming in Node.js:
+                                            Callbacks, Promises, and Async/Await
+                                            Explained
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>NODE.JS</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            0 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            0 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            61 Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fce245d2a058c1b9c2634cec233a780d8_golang-vs-nodejs.webp&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Node.js vs. Golang: An In-Depth
+                                            Comparison of the Latest Versions in
+                                            2024
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>GO (GOLANG)</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>NODE.JS</div>
+                                    </a>
+                                    <a href="#">
+                                        <div>GO</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            1 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            2 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            1.0K Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="#"
+                                    ><div class="post_image">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fffc1b32b655dec12db1e8061461117e4_node-async.webp&w=256&q=60"
+                                            alt="Post image"
+                                        />
+                                    </div>
+                                </a>
+                                <div>
+                                    <a href="#">
+                                        <h3 class="post_name">
+                                            Asynchronous Programming in Node.js:
+                                            Callbacks, Promises, and Async/Await
+                                            Explained
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="tags">
+                                    <a href="#">
+                                        <div>NODE.JS</div>
+                                    </a>
+                                </div>
+                                <div class="post_bottom">
+                                    <a href="#" class="creator">
+                                        <img
+                                            src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fimage-store-test-123.s3.us-east-2.amazonaws.com%2Fe005fc772e8484dd32c3cb9ca454749a_pulsdev.png&w=16&q=50"
+                                            alt="icon"
+                                            width="16"
+                                            height="17"
+                                        />
+                                        <span
+                                            >Voskan Voskanyan
+                                            <span> created 4 weeks ago </span>
+                                        </span>
+                                    </a>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-heart h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                                ></path>
+                                            </svg>
+                                            0 Votes
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-message-circle h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"
+                                                ></path>
+                                            </svg>
+                                            0 Comments
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                width="24"
+                                                height="24"
+                                                viewBox="0 0 24 24"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                stroke-width="2"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="lucide lucide-eye h-4 w-4"
+                                            >
+                                                <path
+                                                    d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                                                ></path>
+                                                <circle
+                                                    cx="12"
+                                                    cy="12"
+                                                    r="3"
+                                                ></circle>
+                                            </svg>
+                                            61 Views
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 40px">
+                            <div id="pages">
+                                <button disabled>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-chevron-left"
+                                    >
+                                        <path d="m15 18-6-6 6-6"></path>
+                                    </svg>
+                                    Prev
+                                </button>
+                                <div><p>1</p></div>
+                                <button>
+                                    Next
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-chevron-right"
+                                    >
+                                        <path d="m9 18 6-6-6-6"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="right-side" class="custom-scroll">
+                    <div id="top-posts">
+                        <h3>Top Posts</h3>
+                        <div>
+                            <a href="#" class="top-post">
+                                <img
+                                    src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2F6a20d2f5a72d1c9f703e4d38b793aba7_go-concurrency.webp&w=64&q=40"
+                                    alt=""
+                                    class="top-post-img"
+                                />
+                                <span class="top-post-text">
+                                    Mastering Concurrency in Go: A Comprehensive
+                                    Guide to Goroutines and Channels
+                                </span>
+                                <span
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="top-post">
+                                <img
+                                    src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fce245d2a058c1b9c2634cec233a780d8_golang-vs-nodejs.webp&w=64&q=40"
+                                    alt=""
+                                    class="top-post-img"
+                                />
+                                <span class="top-post-text">
+                                    Node.js vs. Golang: An In-Depth Comparison
+                                    of the Latest Versions in 2024
+                                </span>
+                                <span
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="top-post">
+                                <img
+                                    src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2F6a20d2f5a72d1c9f703e4d38b793aba7_go-concurrency.webp&w=64&q=40"
+                                    alt=""
+                                    class="top-post-img"
+                                />
+                                <span class="top-post-text">
+                                    Mastering Concurrency in Go: A Comprehensive
+                                    Guide to Goroutines and Channels
+                                </span>
+                                <span
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="top-post">
+                                <img
+                                    src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2Fce245d2a058c1b9c2634cec233a780d8_golang-vs-nodejs.webp&w=64&q=40"
+                                    alt=""
+                                    class="top-post-img"
+                                />
+                                <span class="top-post-text">
+                                    Node.js vs. Golang: An In-Depth Comparison
+                                    of the Latest Versions in 2024
+                                </span>
+                                <span
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="top-post">
+                                <img
+                                    src="https://www.plusdev.net/_next/image?url=https%3A%2F%2Fplusdev-net.s3.eu-central-1.amazonaws.com%2F6fac3e15f14bf14e8daae020c7fabeff_go-redis.webp&w=64&q=40"
+                                    alt=""
+                                    class="top-post-img"
+                                />
+                                <span class="top-post-text">
+                                    Go and Redis: Implementing High-Performance
+                                    Caching
+                                </span>
+                                <span
+                                    ><svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="top-questions-container">
+                        <h3>Top Questions</h3>
+                        <div class="top-questions">
+                            <a href="#" class="top-question">
+                                <span class="top-question-text">
+                                    Is there a way in Golang to define a generic
+                                    function type with varargs that can take any
+                                    function as input?
+                                </span>
+                                <span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="top-question">
+                                <span class="top-question-text">
+                                    Unable to download generated file using node
+                                    js to pc
+                                </span>
+                                <span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="top-question">
+                                <span class="top-question-text">
+                                    How get access the unmodified body of a
+                                    Fastify request
+                                </span>
+                                <span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a href="#" class="top-question">
+                                <span class="top-question-text">
+                                    Test Tessst
+                                </span>
+                                <span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        stroke-width="2"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        class="lucide lucide-arrow-right h-4 w-4 text-zinc-700 dark:text-zinc-400"
+                                    >
+                                        <path d="M5 12h14"></path>
+                                        <path d="m12 5 7 7-7 7"></path>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="popular-tags-container">
+                        <h3>Popular Tags</h3>
+                        <div id="popular-tags">
+                            <a href="#" class="popular-tag">
+                                <div>NODE.JS</div>
+                                <span>5</span>
+                            </a>
+                            <a href="#" class="popular-tag">
+                                <div>GO (GOLANG)</div>
+                                <span>19</span>
+                            </a>
+                            <a href="#" class="popular-tag">
+                                <div>FASTIFY</div>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="popular-tag">
+                                <div>NODE.JS</div>
+                                <span>40</span>
+                            </a>
+                            <a href="#" class="popular-tag">
+                                <div>GO</div>
+                                <span>6</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
